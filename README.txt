@@ -1,5 +1,5 @@
 FILES: voting.c, borda.h, instant_runoff.h, pairwise_comparison.h, schulze_beatpath.h
-AUTHORS: Sasha BAkker, Shoale Badr
+AUTHORS: Sasha Bakker, Shoale Badr
 DATE: 11/18/21
 COMPILER: GCC (Command Line)
 OS: Windows 10
@@ -21,7 +21,7 @@ the same folder as `voting.c`.
 
 To compile `voting.c`, type `gcc -o voting voting.c` in the console.
 
-To run the code and recieve an output, type `./voting {filename.txt} {d}`.
+To run the code and receive an output, type `./voting {filename.txt} {d}`.
 The string {filename.txt} must be the name of a text file with voting data
 that is saved in the same folder as `voting.c`. An error will be thrown 
 if a file name is not included. The string {d} is the letter "d". This is
